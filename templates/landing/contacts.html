@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+        <div class="contacts-section1">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="{% static "media/images/gps.png" %}" width="70" height="100">
+                    <h2>ПОСЕТИТЕ НАС</h2>
+                    <p>Московская область, Рузский район, городское поселение Колюбакино д. Апальщино</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="{% static "media/images/call-icon.jpg" %}" width="100" height="100">
+                    <h2>ПОЗВОНИТЕ НАМ</h2>
+                    <p>+7 (977) 935 58 52</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img src="{% static "media/images/email.svg" %}" width="100" height="100">
+                    <h2>НАПИШИТЕ НАМ</h2>
+                    <p>info@otdihprostory.ru</p>
+                </div>
+            </div>
+        </div>
+
+{% endblock content %}

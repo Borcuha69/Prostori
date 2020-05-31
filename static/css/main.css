@@ -73,20 +73,22 @@ html, body {
 
 /*-----------------Mobile menu-button-----------------*/
 
-.navbar-toggle {
+.navbar-default .navbar-toggle {
     background-color: transparent;
     border-color: #000000;
+    border-width: medium;
+    margin-right: 20px;
 }
 
-.navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
     background-color: black;
 }
 
-.navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover {
     background-color: #000000;
 }
 
-.navbar-toggle:hover .icon-bar {
+.navbar-default .navbar-toggle:hover .icon-bar {
     background-color: white;
 }
 
@@ -97,6 +99,38 @@ html, body {
     font-size: 60px;
     font-family: MgAgia;
     padding-top: 25px;
+}
+
+.about-section1 {
+    margin: 100px auto 30px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.about-section1 h1 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.about-section1 p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about .about-section2>video {
+    width: 100%;
+    height: auto;
+}
+
+.contacts-section1 {
+    margin: 150px auto 0;
+}
+
+.col-sm-4 {
+    background: rgba(255, 255, 255, 0.6);
 }
 
 .footer {
