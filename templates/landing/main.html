@@ -1,114 +1,76 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-       <title> ООО "Бани Звенигорода" </title>
-       <meta charset="UTF-8"> <!-- kodirovka -->
-	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	   <link rel="shortcut icon" type="image/x-icon" href="images/ikonka.png"> <!-- ikonka na shapku saita-->
-	   <link rel="stylesheet" type="text/css" href="{% static "css/main.css" %}" media="all"> <!-- подключаемфайл стилей и задаём, чтобы он работал на всех устройствах-->
-</head>
-<body>
-      <div class="header">
-         <div class="mid">
-		     <header>
-			    <div class="topmenu"> <!--Задаем второстепенное меню-->
-				      <aside>
-					      <a href="#">Главная</a>
-						  <a href="#">Виды услуг</a>
-						  <a href="#">Примеры работ</a>
-						  <a href="#">Контакты</a>
-					  </aside>
-				</div>
-			      <img width="270" height="70" src="{% static "media/images/y.png" %}" alt="Логотип сайта" title="Логотип сайта"><!-- Всплывающее окно при наведении мышкой на логоти-->
-				  <div class="afisha">
-				         <details>
-						 <summary>Открыть</summary>
-				         <img src="{% static "media/images/bashnya.png" %}" alt="Обложка фирмы" title="Обложка фирмы">
-				         <h3><i>Рады приветствовать вас на странице подмосковных курортов. Дикая природа, настоящая русская баня и все необходимые нюансы для настоящего отдыха на природе!</i>
-						 </h3>
-						 <hr style="height: 3px; width: 500px; border: 0; background: green">
-						 <p><a href="#" target="_blank"><!-- Ссылка открывается в новой вкладке-->Смотрите здесь!</a></p>
-						 <div class="clear"></div>
-						 </details>
-				  </div>
-			 </header>
-		 </div>
-	  </div>
-	  <div class="meny">
-	     <div class="mid">
-		     <nav> <!-- Подразумевает, что здесь будет находиться главная навигация по сайту-->
-			     <ul> <!-- Заведем список-->
-				     <li><a href="#">Информация о компании</a></li> <!-- Заведём 3 пункта с сылками внутри-->
-					 <li><a href="#">Система скидок</a></li>
-					 <li><a href="#">Как стать нашим партнером</a></li>
-				 </ul>
-			 </nav>
-		 </div>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Просторы</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.icloud.com/favicon.ico">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="wrapper-content">
+
+
+        <div class="navbar-wrapper">
+          <div class="container">
+
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="navbar container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">Просторы</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav"></ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+        <div class="main">
+
+        </div>
+
       </div>
-	  <div class="content">
-	     <div class="mid">
-		     <div class="fon">
-			     <div class="block">
-				     <a href="#">
-				     <div class="anons">
-					     <section> <!-- Разбивает содержимое нашей страницы на отдельные логические участки-->
-						     <img src="{% static "media/images/q1.jfif" %}" alt="БАНИ"><!-- альт используется если в браузере отключен показ картинок и выдает ошибку. В этом случае вместо картинки будет показан этот текст-->
-						     <h3>Банный комплекс + домики для отдыха.</h3>
-							 <p>На территории комплекса имеются 2 бани — «по-чёрному» и настоящая русская баня. Также мы можем предложить 2 двухэтажных деревянных дома для большой компании со своей баней, бассейном, бильярдом, 4 отдельными спальнями. </p>
-						 </section>
-					 </div>
-					</a>
-				 </div>
-				 <div class="block">
-				     <a href="#">
-				     <div class="anons">
-					     <section> <!-- Разбивает содержимое нашей страницы на отдельные логические участки-->
-						     <img src="{% static "media/images/w2.jpg" %}" alt="ЭКОПРОДУКТЫ"><!-- альт используется если в браузере отключен показ картинок и выдает ошибку. В этом случае вместо картинки будет показан этот текст-->
-						     <h3>Фермерская продукция + своя пасека.</h3>
-							 <p>У нас можно не только приобрести натуральную продукцию, но и провести время с семьей. Мы организуем экскурсии по нашей экоферме. Больше того - мы несём людям здоровье через продукты пчеловодства, за качество которых мы отвечаем.</p>
-						 </section>
-					 </div>
-					</a>
-				 </div>
-				 <div class="clear"></div><hr class="line">
-				 <div class="rek">
-				     <a href="#" target="_blank">
-					    <img src="{% static "media/images/i1.jpg" %}" alt="Конные прогуки" title="Конные прогулки">
-					 </a>
-				 </div>
-			     <hr class="line">
-				 <div class="block">
-				     <a href="#">
-				     <div class="anons">
-					     <section> <!-- Разбивает содержимое нашей страницы на отдельные логические участки-->
-						     <img src="{% static "media/images/z1.jpg" %}" alt="СПОРТ"><!-- альт используется если в браузере отключен показ картинок и выдает ошибку. В этом случае вместо картинки будет показан этот текст-->
-						     <h3>Стрельба из лука и ещё множество спортивно-развлекательных мероприятий.</h3>
-							 <p>Прямо на Вашем празднике гости смогут пострелять из лука и арбалета, пневматических копий ковбойских револьверов, пистолетов и винтовок, пометать ножи и топоры, научиться бросать лассо и щелкать кнутом.</p>
-						 </section>
-					 </div>
-					</a>
-				 </div>
-				 <div class="block">
-				     <a href="#">
-				     <div class="anons">
-					     <section> <!-- Разбивает содержимое нашей страницы на отдельные логические участки-->
-						     <img src="{% static "media/images/x1.jpg" %}" alt="РЫБАЛКА"><!-- альт используется если в браузере отключен показ картинок и выдает ошибку. В этом случае вместо картинки будет показан этот текст-->
-						     <h3>Неповторимая рыбалка, атмосферные ярморки мастеров, контактный зоопарк.</h3>
-							 <p>Контактный зоопарк — самое лучшее место, чтобы ближе познакомиться с ручными экзотическими и домашними животными. Обилие рыбы и дичи делают эти места излюбленными для туристов, охотников и рыболовов. </p>
-						 </section>
-					 </div>
-					</a>
-				 </div>
-				 <div class="clear"></div>
-			  </div>
-		 </div>
-	  </div>
-	  <div class="footer">
-	     <div class="mid">
-		    <span>2020 &copy; ООО "Бани Звенигорода"</span> <span>Разработка и дизайн: Sey</span>
-		 </div>
-	  </div>
-</body>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">&copy; Designed by Alekhin Denis</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>

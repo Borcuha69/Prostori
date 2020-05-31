@@ -1,96 +1,104 @@
-body {background: #efefef url("../media/images/n.jpg"); margin: 0; padding: 0; /*нулевые отступы по бокам и сверху*/
-font: 16px/24px Arial, Tahoma, sans-serif; color: #272727;}/*Указали браузеру, что по умолчанию идет шрифт Ариал, если у пользователя его нет, то идет Тахома, если и его нет - любой другой который есть без засечек*/
-a{text-decoration: none;} /*Никаких декораций у тэгов "а", отменяет например подчеркивания*/
-a:hover{transition: all 0.5s;}
-
-/*Структура сайта*/
-div.mid{width: 1000px; margin: 0 auto;} /*Отцентрирует блок див и сделает его по центру*/
-div.header{padding-top: 20px;
-	background:
-    radial-gradient(rgba(255,255,255,0.2), #101417 250px, transparent 250px /*Прозрачный цвет начинается сразу на 250пкс*/)10% -200px no-repeat;
-	background-color:#B0E0E6; background-size: 500px 500px;}
-div.footer{margin: 20px 0; text-align: center; text-transform: uppercase;}
-
-/*Шапка сайта*/
-div.topmenu{float: right; height: 70px; line-height: 70px;}/*Указали высоту строки*/ /*Сдвигаем вправо*/
-div.topmenu a{margin: 0 0 0 10px; color: #000000;} /*Для всех тэгов "а" задаем отступ*/
-div.topmenu a:hover{color: #FF00FF;} /*Показываем браузеру, что эти стили будут работать только при наведении курсора мышки*/
-div.afisha{padding: 20px 50px 1px 50px; margin-top: 20px;
-
-    background:
-	linear-gradient(90deg, #c16a8a 100px, #a367ba 100px, #a367ba 200px, #2b798f 200px, #2b798f 300px,
-	   #76a7ac 300px, #76a7ac 400px, #93ae65 400px, #93ae65 500px, #dbb16f 500px) left top repeat-x;/*Репит х - повторять только по горизонтали*/
-	background-color: #f2f2f2; /*url(images/liniya.png)top repeat-x; } Линия прижата к верху и повторяется только по горизонтали*/ /*Отступ для афишы справа 20, сверху 50, снизу 0, слева 50*/
-    background-size: 600px 10px;}
-div.afisha img{float: left;}
-div.afisha h3{font-size: 24px; font-weight: normal; text-align: center; color: green;}
-div.afisha p{text-align: center;}
-div.afisha a{font-size: 20px; color: #fff; font-weight: bold;
-       background: #b23600; border: 1px solid #862900; padding: 5px 15px;
-	   border-radius: 3px; box-shadow: 2px 2px 7px -1px #777; text-shadow: 0px 0px 3px #752300;}
-div.afisha a:hover{background: #068bac; border: 1px solid #046d88; text-shadow: 0px 0px 3px #034E61;}
-
-/*Главное меню*/
-div.meny{background: #2F4F4F; border: 1px solid #016c8b; border-left: none; border-right: none;}
-div.meny ul{margin: 0; padding: 0; list-style: none; /*Убераем маркеры*/ text-align: center;} /*Для всех списков ул в диве меню будет следующее..*/
-div.meny ul li {display: inline-block; margin: 5px 50px;}
-div.meny ul li a{color: #fff; text-transform:uppercase; text-shadow: 1px 1px 3px #0b4455;}
-div.meny ul li a:hover{color: #a3e1f3;} /*То есть при наведении мыши наши ссылки будут менять цвет*/
-
-/*Контент сайта*/
-div.fon {background: #fff; border: 1px solid #ccc; border-top: none; padding: 40px;}
-div.fon hr.line {border-bottom: 1px dashed #ccc; height: 0; margin: 40px 0;}
-div.block {width: 440px; float: left;}
-div.block:nth-of-type(even)/*четные значения*/ {float: right;}
-div.block a p{color: #272727;}
-div.anons {background: #f5f5f5; border: 1px solid #ccc; border-radius: 3px; padding: 20px;/* это поля */}
-div.anons:hover {background: #e0eff4; border: 1px solid #bfd5dd; transition: all 1s;}/*транзишион это цыет выделения меняется плавно при наведении мыши*/
-div.anons img {box-shadow: 1px 1px 5px #777; transition: transform 0.5s; filter: sepia(1); transition: 1s;}
-div.anons:hover img {transform: scale(1.15) rotate(2deg); transition: transform 2s; filter: sepia(0)} /*При наведении курсора картинка увеличивается в размере в течение 5 секунд*/
-div.block:nth-of-type(even) div.anons:hover img {transform: scale(1.15) rotate(-2deg);}
-div.anons h3 {font-size: 20px; font-weight: normal; margin: 20px 0px 10px; padding: 0; color: #01617d; line-height: 20px;}
-div.anons p {text-shadow: 1px 1px 0 #fff;}
-div.rek {margin: 40px 0;}
-div.rek img {border: 1px solid #ccc; border-radius: 3px; position: relative; filter: sepia(1); transition: 1s;}
-@-webkit-keyframes prigskok {
-	0%{top: 0;}
-	10%{top:40px;}
-	20%{top: -30px;}
-	30%{top:40px;}
-	40%{top:-20px;}
-	50%{top:40px;}
-	60%{top:-10px;}
-	70{top:40px;}
-	80%{top:0;}
-	90%{top:40px;}
-	95%{top:20px;}
-	100%{top:0;}
+@font-face {
+    font-family: MgAgia;
+    src: url("17405.otf");
 }
-div.rek img:hover{-webkit-animation: prigskok 2s; filter: sepia(0)} /*Превикс вебкит - чтобы адаптировать анимацию под хром, в других не работает, для старой мозилы префикс moz*/
 
-/*Подвал*/
-div.footer span {margin: 0 20px; color: white;}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    background: url("../media/images/41203560.jpg") no-repeat;
+}
 
-div.clear{clear: both;} /*Очистка обтекания*/
+.wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+}
 
+.wrapper-content {
+    flex: 1 0 auto;
+}
 
-/*Адаптивный дизайн*/
-@media screen and (max-width: 999px){
-	div.mid{width: 95%;}
-	div.afisha h3{font-size: 22px;}
-	div.block {width: 48%;}
-	div.anons img, div.rek img {width: 100%;} /*Чтобы картинки стали размером на весь блок анонса*/
-    div.anons h3 {font-size: 18px;}
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
 
-}/*Если ширина экрана меньше 999пкс, то применяются указанные стили*/
+.navbar-default {
+    border-color: black;
+    border-bottom-width: 2px;
+    background-color: rgba(255, 255, 255, 0.71);
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-@media screen and (max-width: 640px){
-	div.header{text-align: center; background-position: center -150px;}
-	div.topmenu{float: none;}
-	div.afisha img{float: none;}
-	div.block, div.block:nth-of-type(even) {float: none;}
-	div.block {width: auto; margin-bottom: 40px;}
-	div.block:nth-last-of-type(2){margin-bottom: 0;}
-	div.footer span {margin: 10px 0; display: block;/*Блочные элементы стали шириной с дисплей*/}
+.navbar .container {
+    height: 40px;
+}
+
+.navbar-collapse {
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    margin-top: -10px;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*-----------------Mobile menu-button-----------------*/
+
+.navbar-toggle {
+    background-color: transparent;
+    border-color: #000000;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle:hover {
+    background-color: #000000;
+}
+
+.navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+/*-----------------Mobile menu-button-----------------*/
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 60px;
+    font-family: MgAgia;
+    padding-top: 25px;
+}
+
+.footer {
+    flex: 0 0 auto;
 }
