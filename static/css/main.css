@@ -38,25 +38,12 @@ html, body {
     background-color: rgba(255, 255, 255, 0.71);
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-.navbar .container {
+.navbar {
     height: 40px;
 }
 
 .navbar-collapse {
     overflow-x: hidden;
-    margin-top: 20px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -65,10 +52,13 @@ html, body {
 
 .navbar-default .navbar-nav>li>a {
     color: black;
-    margin-top: -10px;
     font-size: 30px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ecffe4;
 }
 
 /*-----------------Mobile menu-button-----------------*/
@@ -96,9 +86,13 @@ html, body {
 
 .navbar-default .navbar-brand {
     color: black;
-    font-size: 60px;
+    font-size: 45px;
     font-family: MgAgia;
-    padding-top: 25px;
+    padding-top: 15px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: black;
 }
 
 .about-section1 {
@@ -126,11 +120,19 @@ html, body {
 }
 
 .contacts-section1 {
-    margin: 150px auto 0;
+    margin: 50px auto 0;
 }
 
-.col-sm-4 {
+.connection {
     background: rgba(255, 255, 255, 0.6);
+    padding: 5% 5% 0 5%;
+    min-height: 300px;
+    border-radius: 50px;
+    margin: 5% 2%;
+}
+
+.contacts-section2 {
+    margin: 3% 10% 1%;
 }
 
 .footer {
