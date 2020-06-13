@@ -46,6 +46,10 @@ html, body {
     overflow-x: hidden;
 }
 
+#navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: black;
 }
@@ -118,6 +122,7 @@ html, body {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 50px;
     max-width: 400px;
+    height: 350px;
 }
 
 .anons:hover {
@@ -199,11 +204,46 @@ html, body {
     margin: 3% 10% 1%;
 }
 
-.footer {
-    flex: 0 0 auto;
-    margin-top: 2%;
+.baths {
+    margin: 50px auto 0;
 }
 
-#navbar {
-    background-color: rgba(255, 255, 255, 0.4);
+.baths-section1 {
+    margin: 1% 5% 0;
+}
+
+.bath-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 600px;
+    height: 500px;
+}
+
+.fotorama {
+    margin-top: 4%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+}
+
+.bath-description p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer {
+    flex: 0 0 auto;
+    margin-top: -5px;
+    height: 0px;
+}
+
+.text-muted {
+    padding-top: 7px;
+    color: black;
+}
+
+#footer {
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
 }
