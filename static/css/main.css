@@ -50,12 +50,23 @@ html, body {
     border-color: black;
 }
 
+.Kolistratov {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 90px;
+    text-align: right;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: black;
     font-size: 30px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: left;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -68,7 +79,8 @@ html, body {
     background-color: transparent;
     border-color: #000000;
     border-width: medium;
-    margin-right: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -94,6 +106,45 @@ html, body {
 
 .navbar-default .navbar-brand:hover {
     color: black;
+}
+
+.main {
+    margin: 50px auto 0;
+}
+
+.anons {
+    margin: 5% 10% 0;
+    padding: 25px 25px 1px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 400px;
+}
+
+.anons:hover {
+    background: #ecffe4;
+    transition: all 1s;
+}
+
+.anons a {
+    text-decoration: none;
+    color: black;
+}
+
+.anons .responsive {
+    height: auto;
+    width: 100%;
+    max-width: 330px;
+}
+
+.anons img {
+    box-shadow: 1px 1px 5px #777;
+    filter: sepia(1);
+}
+
+.anons:hover img {
+    transform: scale(1.15) rotate(3deg);
+    transition: transform 2s;
+    filter: sepia(0);
 }
 
 .about-section1 {
