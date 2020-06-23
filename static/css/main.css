@@ -54,15 +54,6 @@ html, body {
     border-color: black;
 }
 
-.Kolistratov {
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 5px;
-    margin-right: 90px;
-    text-align: right;
-}
-
 .navbar-default .navbar-nav>li>a {
     color: black;
     font-size: 30px;
@@ -119,10 +110,10 @@ html, body {
 .anons {
     margin: 5% 10% 0;
     padding: 25px 25px 1px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
     max-width: 400px;
-    height: 350px;
+    height: 410px;
 }
 
 .anons:hover {
@@ -133,6 +124,10 @@ html, body {
 .anons a {
     text-decoration: none;
     color: black;
+}
+
+.anons p {
+    font-weight: bold;
 }
 
 .anons .responsive {
@@ -218,7 +213,6 @@ html, body {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 50px;
     max-width: 800px;
-    max-height: 700px;
 }
 
 .fotorama {
@@ -232,9 +226,115 @@ html, body {
     font-weight: 700;
 }
 
+.fermer {
+    margin: 50px auto 0;
+}
+
+.fermer-section1 {
+    margin: 1% 5%;
+}
+
+.fermer-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.fermer-description p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.fishing {
+    margin: 50px auto 0;
+}
+
+.fishing-section1 {
+    margin: 1% 5%;
+}
+
+.fishing-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.fishing-description p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.horsewalking {
+    margin: 50px auto 0;
+}
+
+.horsewalking-section1 {
+    margin: 1% 5%;
+}
+
+.horsewalking-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.horsewalking-description p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.zoo {
+    margin: 50px auto 0;
+}
+
+.zoo-section1 {
+    margin: 1% 5%;
+}
+
+.zoo-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.zoo-description p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.activity {
+    margin: 50px auto 0;
+}
+
+.activity-section1 {
+    margin: 1% 5%;
+}
+
+.activity-description {
+    margin-top: 4%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.activity-description p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .footer {
     flex: 0 0 auto;
-    margin-top: 2%;
+    margin-top: 4%;
     height: 0px;
 }
 
