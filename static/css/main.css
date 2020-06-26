@@ -113,7 +113,7 @@ html, body {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
     max-width: 400px;
-    height: 410px;
+    min-height: 430px;
 }
 
 .anons:hover {
@@ -243,6 +243,16 @@ html, body {
 }
 
 .fermer-description p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.fermer-description h4 {
+    font-weight: 700;
+}
+
+.fermer-description>ul {
     font-size: 16px;
     font-weight: 700;
     text-align: left;
