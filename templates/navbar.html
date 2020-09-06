@@ -1,3 +1,5 @@
+{% load static %}
+
 <div class="navbar-wrapper">
           <div class="container">
 
@@ -10,7 +12,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/">Просторы</a>
+{#                  <a class="navbar-brand" href="/">Просторы</a>#}
+                    <a class="navbar-brand" href="/">
+                        <img src="{% static "media/images/header.jpeg" %}" class="responsive">
+                    </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">

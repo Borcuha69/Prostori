@@ -9,7 +9,8 @@
 }
 html, body {
     height: 100%;
-    background: url("../media/images/41203560.jpg") no-repeat;
+    background-image: url("../media/images/41203560.jpg");
+    background-size: 100%;
 }
 
 .wrapper {
@@ -35,11 +36,11 @@ html, body {
 .navbar-default {
     border-color: black;
     border-bottom-width: 2px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(79, 59, 48, 1);
 }
 
 .navbar {
-    height: 40px;
+    height: 75px;
 }
 
 .navbar-collapse {
@@ -47,7 +48,7 @@ html, body {
 }
 
 #navbar {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(79, 59, 48, 1);
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -56,12 +57,12 @@ html, body {
 
 .navbar-default .navbar-nav>li>a {
     color: black;
-    font-size: 30px;
+    font-size: 38px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: left;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 27px;
+    /*padding-bottom: 13px;*/
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -74,7 +75,7 @@ html, body {
     background-color: transparent;
     border-color: #000000;
     border-width: medium;
-    margin-top: 5px;
+    margin-top: 17px;
     margin-right: 5px;
 }
 
@@ -93,10 +94,14 @@ html, body {
 /*-----------------Mobile menu-button-----------------*/
 
 .navbar-default .navbar-brand {
-    color: black;
-    font-size: 45px;
-    font-family: MgAgia;
-    padding-top: 15px;
+    /*color: black;*/
+    /*font-size: 45px;*/
+    /*font-family: MgAgia;*/
+    /*padding-top: 15px;*/
+}
+
+.navbar-default .navbar-brand img {
+    height: 245%;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -108,7 +113,8 @@ html, body {
 }
 
 .anons {
-    margin: 5% 10% 0;
+    margin: auto;
+    margin-top: 10%;
     padding: 25px 25px 1px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
@@ -192,7 +198,11 @@ html, body {
     padding: 5% 5% 0 5%;
     min-height: 300px;
     border-radius: 50px;
-    margin: 5% 2%;
+    margin: 10% 10%;
+}
+
+.connection h3 {
+    text-align: center;
 }
 
 .contacts-section2 {
@@ -224,6 +234,21 @@ html, body {
 .bath-description p {
     font-size: 16px;
     font-weight: 700;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.bath-description li {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.bath-description h2,h3 {
+    text-align: left;
+    margin-left: 10px;
 }
 
 .fermer {
@@ -256,6 +281,10 @@ html, body {
     font-size: 16px;
     font-weight: 700;
     text-align: left;
+}
+
+.fermer-description li {
+    list-style-type: none;
 }
 
 .fishing {
@@ -350,11 +379,11 @@ html, body {
 
 .text-muted {
     padding-top: 10px;
-    color: black;
+    color: whitesmoke;
     font-size: 16px;
 }
 
 #footer {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(79, 59, 48, 1);
     width: 100%;
 }
