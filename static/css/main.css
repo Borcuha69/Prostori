@@ -56,52 +56,55 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: black;
+    color: white;
     font-size: 38px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: left;
     padding-top: 27px;
+    font-weight: 500;
     /*padding-bottom: 13px;*/
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #ecffe4;
+    color: #e4de9c;
 }
 
 /*-----------------Mobile menu-button-----------------*/
 
 .navbar-default .navbar-toggle {
     background-color: transparent;
-    border-color: #000000;
+    border-color: #e4de9c;
     border-width: medium;
     margin-top: 17px;
     margin-right: 5px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
+    background-color: #e4de9c;
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: #000000;
+    background-color: #e4de9c;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
-    background-color: white;
+    background-color: #4f3b30;
 }
 
 /*-----------------Mobile menu-button-----------------*/
 
-.navbar-default .navbar-brand {
-    /*color: black;*/
-    /*font-size: 45px;*/
-    /*font-family: MgAgia;*/
-    /*padding-top: 15px;*/
-}
+/*.navbar-default .navbar-brand {
+    color: black;
+    font-size: 45px;
+    font-family: MgAgia;
+    padding-top: 15px;
+}*/
 
-.navbar-default .navbar-brand img {
-    height: 245%;
+.navbar-default .navbar-brand .responsive {
+    height: auto;
+    width: 100%;
+    max-width: 235px;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -119,7 +122,7 @@ html, body {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 50px;
     max-width: 400px;
-    min-height: 430px;
+    min-height: 504px;
 }
 
 .anons:hover {
@@ -130,6 +133,10 @@ html, body {
 .anons a {
     text-decoration: none;
     color: black;
+}
+
+.anons-header {
+    text-align: center;
 }
 
 .anons p {
@@ -175,6 +182,8 @@ html, body {
 .about-section1 p {
     font-size: 16px;
     font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .about2 {
@@ -195,8 +204,8 @@ html, body {
 
 .connection {
     background: rgba(255, 255, 255, 0.6);
-    padding: 5% 5% 0 5%;
-    min-height: 300px;
+    padding: 5% 5% 1% 5%;
+    min-height: 330px;
     border-radius: 50px;
     margin: 10% 10%;
 }
@@ -205,8 +214,36 @@ html, body {
     text-align: center;
 }
 
+.connection a {
+    text-decoration: none;
+    color: black;
+}
+
+.connection a:hover {
+    color: #b539ac;
+}
+
 .contacts-section2 {
     margin: 3% 10% 1%;
+}
+
+.description {
+    margin-top: 10%;
+    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.description>p,ul,li {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fotorama {
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
 }
 
 .baths {
@@ -217,31 +254,13 @@ html, body {
     margin: 1% 5%;
 }
 
-.bath-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
-.fotorama {
-    margin-top: 4%;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 30px;
-}
-
 .bath-description p {
-    font-size: 16px;
-    font-weight: 700;
     text-align: justify;
     margin-left: 20px;
     margin-right: 10px;
 }
 
 .bath-description li {
-    font-size: 16px;
-    font-weight: 700;
     text-align: left;
     margin-left: 40px;
 }
@@ -259,17 +278,7 @@ html, body {
     margin: 1% 5%;
 }
 
-.fermer-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
 .fermer-description p {
-    font-size: 16px;
-    font-weight: 700;
     text-align: left;
 }
 
@@ -278,8 +287,6 @@ html, body {
 }
 
 .fermer-description>ul {
-    font-size: 16px;
-    font-weight: 700;
     text-align: left;
 }
 
@@ -295,38 +302,12 @@ html, body {
     margin: 1% 5%;
 }
 
-.fishing-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
-.fishing-description p {
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .horsewalking {
     margin: 50px auto 0;
 }
 
 .horsewalking-section1 {
     margin: 1% 5%;
-}
-
-.horsewalking-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
-.horsewalking-description p {
-    font-size: 16px;
-    font-weight: 700;
 }
 
 .zoo {
@@ -337,38 +318,12 @@ html, body {
     margin: 1% 5%;
 }
 
-.zoo-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
-.zoo-description p {
-    font-size: 16px;
-    font-weight: 700;
-}
-
 .activity {
     margin: 50px auto 0;
 }
 
 .activity-section1 {
     margin: 1% 5%;
-}
-
-.activity-description {
-    margin-top: 4%;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    max-width: 800px;
-}
-
-.activity-description p {
-    font-size: 16px;
-    font-weight: 700;
 }
 
 .footer {
