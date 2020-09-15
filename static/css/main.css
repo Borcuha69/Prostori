@@ -66,6 +66,10 @@ html, body {
     /*padding-bottom: 13px;*/
 }
 
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #e4de9c;
 }
@@ -214,13 +218,32 @@ html, body {
     text-align: center;
 }
 
-.connection a {
+.instagram {
     text-decoration: none;
     color: black;
 }
 
-.connection a:hover {
+.instagram:hover {
     color: #b539ac;
+}
+
+.instagram:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp {
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp:hover {
+    color: #35692c;
+}
+
+.whatsapp:visited {
+    text-decoration: none;
+    color: black;
 }
 
 .contacts-section2 {
