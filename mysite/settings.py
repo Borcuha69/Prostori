@@ -26,6 +26,7 @@ SECRET_KEY = '4)-&(p1g_aer4o$q_xw9%25j2x&+j9aey87kk3p6bkh3ia-q6e'
 DEBUG = False
 
 ALLOWED_HOSTS = ["www.prostorylife.ru", "webapp-899402.pythonanywhere.com"]
+# ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
