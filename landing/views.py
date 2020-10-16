@@ -19,8 +19,8 @@ def fermer(requests):
 def activity(requests):
     return  render(requests, 'landing/activity.html', locals())
 
-def fishing(requests):
-    return  render(requests, 'landing/fishing.html', locals())
+# def fishing(requests):
+#     return  render(requests, 'landing/fishing.html', locals())
 
 def horsewalking(requests):
     return  render(requests, 'landing/horsewalking.html', locals())
