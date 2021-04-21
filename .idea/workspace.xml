@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e4294d-3749-4b29-b2f0-d369d65ef9cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/landing/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-3.3.7/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/activity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing/baths.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/baths.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/fermer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/fermer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/fishing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/fishing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/horsewalking.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/horsewalking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing/zoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/zoo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +30,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
+            <state relative-caret-position="1122">
               <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/landing/baths.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2142">
-              <caret line="126" column="78" lean-forward="true" selection-start-line="126" selection-start-column="78" selection-end-line="126" selection-end-column="78" />
+            <state relative-caret-position="187">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-935">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -149,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -162,60 +131,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Prostori" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Prostori" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="Prostory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prostory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Prostory_venv" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -302,17 +239,18 @@
       <workItem from="1618996893071" duration="74000" />
       <workItem from="1618996969342" duration="1916000" />
       <workItem from="1619006457244" duration="4757000" />
+      <workItem from="1619012453141" duration="282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182492000" />
+    <option name="totallyTimeSpent" value="182774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11168522" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11248013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -326,7 +264,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2314887" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2314887" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,22 +398,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="1122">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/baths.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="78" lean-forward="true" selection-start-line="126" selection-start-column="78" selection-end-line="126" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/baths.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
