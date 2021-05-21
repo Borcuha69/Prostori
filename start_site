@@ -1,5 +1,6 @@
 #!/bin/bash
 source ~/.prostori_venv/bin/activate
-if [ "ps aux | grep uwsgi | awk '{print $11}' | head -n 1" != uwsgi ]; then
- uwsgi --ini ~/Prostori/mysite_uwsgi.ini
+if [ -z $(ls /tmp/ | grep project-master.pid) ]
+then
+uwsgi --ini ~/Prostori/mysite_uwsgi.ini
 fi
