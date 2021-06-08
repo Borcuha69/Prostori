@@ -3,38 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="66e4294d-3749-4b29-b2f0-d369d65ef9cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/baths/bath19.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath19.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/media/baths/bath20.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath20.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/baths/bath21.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath21.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/baths/bath22.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath22.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/baths/bath23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath23.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/media/baths/bath24.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/media/baths/bath24.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath25.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath26.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath27.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath28.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath29.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath30.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath31.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath32.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath33.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath34.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath35.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath36.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath37.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath38.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath39.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath40.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath41.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath42.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath43.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath44.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath45.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath46.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath47.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath48.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/baths/bath49.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/landing/baths.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/baths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/landing/zoo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/landing/zoo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="297" column="1" lean-forward="true" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+            <state relative-caret-position="731">
+              <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
             </state>
           </provider>
         </entry>
@@ -59,26 +36,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
+            <state relative-caret-position="1122">
               <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing/baths.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="110" column="78" lean-forward="true" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
+            <state relative-caret-position="663">
+              <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/landing/zoo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="833">
+              <caret line="132" column="54" lean-forward="true" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -136,14 +122,14 @@
         <option value="$PROJECT_DIR$/templates/landing/contacts.html" />
         <option value="$PROJECT_DIR$/templates/landing/fermer.html" />
         <option value="$PROJECT_DIR$/templates/landing/about.html" />
-        <option value="$PROJECT_DIR$/templates/landing/zoo.html" />
         <option value="$PROJECT_DIR$/landing/urls.py" />
         <option value="$PROJECT_DIR$/landing/views.py" />
         <option value="$PROJECT_DIR$/templates/landing/fishing.html" />
         <option value="$PROJECT_DIR$/templates/landing/main.html" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/landing/zoo.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/landing/baths.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -281,18 +267,19 @@
       <workItem from="1619006457244" duration="4757000" />
       <workItem from="1619012453141" duration="282000" />
       <workItem from="1619012815971" duration="544000" />
-      <workItem from="1619081117601" duration="3084000" />
+      <workItem from="1619081117601" duration="3974000" />
+      <workItem from="1623122625837" duration="2337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186402000" />
+    <option name="totallyTimeSpent" value="189629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11406995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11486486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/zoo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/fishing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -433,29 +413,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state relative-caret-position="1122">
           <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="297" column="1" lean-forward="true" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+        <state relative-caret-position="731">
+          <caret line="298" lean-forward="true" selection-start-line="298" selection-end-line="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/zoo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/baths.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="110" column="78" lean-forward="true" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
+        <state relative-caret-position="663">
+          <caret line="39" column="69" lean-forward="true" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="132" column="54" lean-forward="true" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
         </state>
       </provider>
     </entry>
